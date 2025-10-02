@@ -12,6 +12,11 @@ body {
     width: 500px;
 }
 
+.hero {
+    overflow: hidden;
+
+}
+
 section {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -69,4 +74,8 @@ footer {
 }
 .Copyright{
     margin-top: 100px;
+}
+
+.hero .col:nth-child(1){
+    --animate-delay: 0.5;
 }
