@@ -41,6 +41,7 @@ section {
 }
 
  @media (max-width: 992px) {
+    
     #hero{
         padding-top: 50px;
     }
@@ -79,3 +80,78 @@ footer {
 .hero .col:nth-child(1){
     --animate-delay: 0.5;
 }
+/* Hero background */
+#hero {
+    background: linear-gradient(120deg, #e0f2f1 0%, #e3f2fd 100%);
+    padding: 100px 0;
+  }
+  
+  /* CTA button */
+  #hero .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  #hero .btn-primary:hover {
+    background-color: #084298;
+    transform: translateY(-2px);
+  }
+  
+  /* Navbar hover effect */
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0d6efd !important;
+    text-decoration: underline;
+  }
+  
+  /* Footer hover */
+  .footer-link:hover {
+    color: #ffd700 !important;
+  }
+  
+  /* Scroll to top button */
+  #scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  #scrollTopBtn:hover {
+    background-color: #084298;
+  }
+
+  /* Pembuat section hover effect */
+#pembuat .card {
+    transition: all 0.4s ease;
+    border-radius: 16px;
+  }
+  
+  #pembuat .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  #pembuat img {
+    transition: transform 0.4s ease;
+  }
+  
+  #pembuat img:hover {
+    transform: scale(1.1);
+  }
+  
